@@ -21,8 +21,8 @@ npx install-peerdeps --dev eslint-config-airbnb-base
 
 # install all other devDependencies
 npm install eslint-config-airbnb-typescript \
-    @typescript-eslint/eslint-plugin@^5.13.0 \
-    @typescript-eslint/parser@^5.0.0 \
+    @typescript-eslint/eslint-plugin \
+    @typescript-eslint/parser \
     typescript \
     prettier \
     eslint-plugin-prettier \
